@@ -1,5 +1,49 @@
 # Changelog
 
+## [1.31.0](https://github.com/patrickjahns/ansible-role-promtail/tree/1.31.0) (2024-04-24)
+
+[Full Changelog](https://github.com/patrickjahns/ansible-role-promtail/compare/1.30.0...1.31.0)
+
+**Implemented enhancements:**
+
+- validate templated promtail config file [\#221](https://github.com/patrickjahns/ansible-role-promtail/pull/221) ([patrickjahns](https://github.com/patrickjahns))
+
+## [1.30.0](https://github.com/patrickjahns/ansible-role-promtail/tree/1.30.0) (2024-04-24)
+
+[Full Changelog](https://github.com/patrickjahns/ansible-role-promtail/compare/1.29.1...1.30.0)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency grafana/loki to v3 [\#215](https://github.com/patrickjahns/ansible-role-promtail/pull/215) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [1.29.1](https://github.com/patrickjahns/ansible-role-promtail/tree/1.29.1) (2024-04-24)
+
+[Full Changelog](https://github.com/patrickjahns/ansible-role-promtail/compare/1.29.0...1.29.1)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency grafana/loki to v2.9.7 [\#216](https://github.com/patrickjahns/ansible-role-promtail/pull/216) ([renovate[bot]](https://github.com/apps/renovate))
+- ci: bumped ansible test versions and base os versions [\#214](https://github.com/patrickjahns/ansible-role-promtail/pull/214) ([patrickjahns](https://github.com/patrickjahns))
+
+## [1.29.0](https://github.com/patrickjahns/ansible-role-promtail/tree/1.29.0) (2024-04-08)
+
+[Full Changelog](https://github.com/patrickjahns/ansible-role-promtail/compare/1.28.0...1.29.0)
+
+**Implemented enhancements:**
+
+- Support arbitrary options in the configuration file [\#203](https://github.com/patrickjahns/ansible-role-promtail/issues/203)
+- Add variable \(list\) for additional command line arguments/flags passed to promtail [\#167](https://github.com/patrickjahns/ansible-role-promtail/issues/167)
+- feat: add promtail\_extra\_args variable to allow configuring the service arguments [\#207](https://github.com/patrickjahns/ansible-role-promtail/pull/207) ([sfhl](https://github.com/sfhl))
+
+**Fixed bugs:**
+
+- Automatic publishing to Ansible Galaxy is currently broken [\#199](https://github.com/patrickjahns/ansible-role-promtail/issues/199)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency grafana/loki to v2.9.6 [\#210](https://github.com/patrickjahns/ansible-role-promtail/pull/210) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency setuptools to v69.2.0 [\#209](https://github.com/patrickjahns/ansible-role-promtail/pull/209) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [1.28.0](https://github.com/patrickjahns/ansible-role-promtail/tree/1.28.0) (2024-02-14)
 
 [Full Changelog](https://github.com/patrickjahns/ansible-role-promtail/compare/1.27.0...1.28.0)
